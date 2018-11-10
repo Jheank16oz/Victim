@@ -34,10 +34,10 @@ $victim->emailV = $_POST['email_v'];
 
 
 if($victim->create()){
-	etail(200,"Usuario registrado correctamente");
+	detail(200,"Usuario registrado correctamente");
 }
 else{
-	detail(500, "Error inesperado")
+	detail(500, "Error inesperado");
 }
 
 function validateFields(){
